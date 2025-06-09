@@ -1,0 +1,32 @@
+{
+  "valido": {
+    "name": "Felipe Daniel",
+    "email": "daniesl@email.com",
+    "password": "12345678"
+  },
+  "invalido": {
+    "name": "",
+    "email": "emailinvalido",
+    "password": "12345678"
+  },
+  "deletar": {
+    "name": "Felipe Daniel",
+    "email": "daniesl@email.com",
+    "password": "12345678"
+  },
+  "atualizado": {
+    "name": "Daniel Felipe",
+    "email": "felipe@email.com",
+    "password": "87654321"
+  },
+  "validocrud": {
+    "name": "Felipe Daniel CRUD",
+    "email": "felipecrud@email.com",
+    "password": "87654321"
+  },
+  "atualizadocrud": {
+    "name": "Daniel Felipe CRUD",
+    "email": "felipecrud@email.com",
+    "password": "87654321"
+  }
+}

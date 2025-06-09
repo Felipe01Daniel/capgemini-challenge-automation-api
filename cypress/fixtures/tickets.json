@@ -1,0 +1,12 @@
+{
+  "valido": {
+    "title": "Erro ao fazer login",
+    "description": "O sistema não autentica o usuário.",
+    "status": "aberto"
+  },
+  "atualizado": {
+    "title": "Login com falha",
+    "description": "Erro 401 após login",
+    "status": "fechado"
+  }
+}

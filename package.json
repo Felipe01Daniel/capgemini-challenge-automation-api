@@ -1,0 +1,38 @@
+{
+  "name": "capgemini-challenge-automation-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "v22.13.1"
+  },
+  "scripts": {
+    "cypres:web": "npx cypress open",
+    "cypress:headless": "npx cypress run --browser electron",
+    "test:api": "cypress run",
+    "report": "mochawesome-merge cypress/results/*.json > mochawesome.json && marge mochawesome.json -f report -o mochawesome-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Felipe01Daniel/capgemini-challenge-automation-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Felipe01Daniel/capgemini-challenge-automation-api/issues"
+  },
+  "homepage": "https://github.com/Felipe01Daniel/capgemini-challenge-automation-api#readme",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.8.0",
+    "chai-json-schema": "^1.5.1",
+    "cypress": "^14.4.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1"
+  }
+}

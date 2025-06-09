@@ -1,0 +1,9 @@
+export const schemaUsuario = {
+  type: 'object',
+  required: ['id', 'name', 'email'],
+  properties: {
+    id: { type: 'string' },
+    name: { type: 'string' },
+    email: { type: 'string' }
+  }
+};
